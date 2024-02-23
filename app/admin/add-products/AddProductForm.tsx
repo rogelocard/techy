@@ -45,7 +45,8 @@ const AddProductForm = () => {
 
     useEffect(() => {
         setCustomValue('images', images)
-    },[images])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[images]) // Ignoring the Warning when npm run build for missing dependency setCustomValue as giving unexpected behavior
 
     useEffect(() => {
         if (isProductCreated) {
@@ -53,7 +54,8 @@ const AddProductForm = () => {
             setImages(null);
             setIsProductCreated(false)
         }
-    },[isProductCreated])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[isProductCreated]) // Ignoring the Warning when npm run build for missing dependency setCustomValue as giving unexpected behavior
 
     /**
      * Function to send over to API post a new product 

@@ -56,6 +56,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({product}) => {
     setCartProduct((prev) => {
       return {...prev, selectedImg:value}
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cartProduct.selectedImg])
 
   return (

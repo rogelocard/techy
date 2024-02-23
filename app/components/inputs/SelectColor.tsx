@@ -28,9 +28,11 @@ const SelectColor: React.FC<SelectColorProps> = ({
         }
     }, [isProductCreated])
 
+    // Ignoring the Warning when npm run build for missing dependency setCustomValue as giving unexpected behavior
     const handleFileChange = useCallback((value: File)=>{
         setFile(value)
         addImageToState({...item, image: value})
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const handleCheck = useCallback((e: React.ChangeEvent<HTMLInputElement>)=>{

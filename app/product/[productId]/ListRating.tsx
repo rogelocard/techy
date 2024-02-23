@@ -1,7 +1,7 @@
 "use client"
 import Heading from '@/app/components/Heading';
 import { Rating } from '@mui/material';
-import { product } from '../../../utils/product';
+// import { product } from '../../../utils/product';
 import Avatar from './Avatar';
 
 
