@@ -1,6 +1,8 @@
 # Ecommerce Techy
 Front-end de la plataforma de consulta de tecnologia Techy, desarrollada en Next.js 13 y lista para consumir APIs de algun backend para listar productos tecnologicos y reviews de estos. Ademas de tener un modulo de registro y Login preparado para implementar una autenticacion con un back-end. 
 
+**Demo de la aplicacion desplegada con Vercel**: https://techy-hazel.vercel.app/
+
 ## Instalación
 - Dar clic en "Code" y luego en "Donwload Zip". Crear una carpeta vacia, ingresar a git bash y ejecutar.
 
