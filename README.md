@@ -4,7 +4,7 @@ Front-end de la plataforma de consulta de tecnologia Techy, desarrollada en Next
 ## Instalación
 - Dar clic en "Code" y luego en "Donwload Zip". Crear una carpeta vacia, ingresar a git bash y ejecutar.
 
-`git clone https://github.com/Logicainformatica18/bodegainformatica.git`
+`https://github.com/rogelocard/techy.git`
 
 - Una vez clonado el proyecto en una carpeta local, puedo abrir el proyecto en un editor de codigo, en mi caso Visual Studio Code. 
 - Abrir una terminal he instalar todas las dependencias que se encuentran en el package.json al ejecutar:
@@ -15,6 +15,7 @@ Front-end de la plataforma de consulta de tecnologia Techy, desarrollada en Next
 Abrir http://localhost:3000 para ver el resultado. 
 
 # Stack usado
-
+Dando click en cada uno de las librerias usadas te redirijira a la pagina para poder descargarla.
 - [NextJS 13](https://nextjs.org/ "NextJS 13")
 -  [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")
+- [Node.js v20.11.1 LTS](https://nodejs.org/en "Node.js v20.11.1 LTS")
